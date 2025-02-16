@@ -17,8 +17,8 @@ export default function RootLayout({
   children,
   authModal,
 }: {
-  children: ReactNode;
-  authModal: ReactNode;
+  children: React.ReactNode;
+  authModal: React.ReactNode;
 }) {
   return (
     <html
