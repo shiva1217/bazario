@@ -4,6 +4,7 @@ import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import { Providers } from "@/redux/provider";
 import Navbar from "@/components/Navbar";
+import { ReactNode } from "react";
 
 export const metadata = {
   title: "BAZARIO",
@@ -16,8 +17,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
-  authModal: React.ReactNode;
+  children: ReactNode;
+  authModal: ReactNode;
 }) {
   return (
     <html
