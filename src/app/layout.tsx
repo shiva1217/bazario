@@ -56,11 +56,11 @@ export const metadata = {
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
-  children,
-  authModal,
+  // children,
+  // authModal,
 }: {
-  children: ReactNode;
-  authModal: ReactNode;
+  // children: ReactNode;
+  // authModal: ReactNode;
 }) {
   return (
     <html
@@ -73,9 +73,9 @@ export default function RootLayout({
       <body className="min-h-screen pt-12 bg-slate-50 antialiased">
         <Providers>
           <Navbar />
-          {authModal}
+          {/* {authModal} */}
           <div className="container max-w-7xl mx-auto h-full pt-12 px-0 md:px-8">
-            {children}
+            {/* {children} */}
           </div>
           <Toaster />
         </Providers>
